@@ -1,0 +1,25 @@
+public class Physics {
+
+    // Define a constant for gravitational acceleration
+
+    public static final double GRAVITY = 9.81; // m/s^2
+
+    
+
+    public static void main(String[] args) {
+
+        // Calculate the force of gravity on an object with a mass of 10 kg
+
+        double mass = 10.0; // kg
+
+        double force = mass * GRAVITY; // N
+
+        
+
+        // Print the result
+
+        System.out.println("The force of gravity on a " + mass + " kg object is " + force + " N.");
+
+    }
+
+} 
